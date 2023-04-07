@@ -1,0 +1,21 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.nodePath": "node_modules",
+    "files.autoSave": "off",
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "eslint.run": "onSave",
+    "editor.detectIndentation": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces":false,
+    "javascript.format.semicolons": "remove",
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true
+    },
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
